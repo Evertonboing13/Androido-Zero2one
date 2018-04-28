@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayoutButtonFive"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bottombar"
+    android:orientation="vertical"
+    android:weightSum="5" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/buttonThreeStateOneListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttonThreeStateOneReference"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/bottombar"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/buttonThreeStateOneImage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.9"
+                    android:src="@drawable/menu_home" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonThreeStateTwoListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttonThreeStateTwoReference"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/bottombar"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/buttonThreeStateTwoImage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.9"
+                    android:src="@drawable/menu_search" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonThreeStateThreeListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttonThreeStateThreeReference"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/bottombarselected"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/buttonThreeStateThreeImage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.9"
+                    android:src="@drawable/menu_new" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        
+                <LinearLayout
+            android:id="@+id/buttonThreeStateFourListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttonThreeStateFourReference"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/bottombar"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/buttonThreeStateFourImage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.9"
+                    android:src="@drawable/menu_timeline" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/buttonThreeStateFiveListener"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/buttonThreeStateFiveReference"
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@color/bottombar"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp" >
+
+                        <ImageView
+                            android:id="@+id/buttonThreeStateFiveImage"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:alpha="0.9"
+                            android:src="@drawable/menu_settings" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+    </LinearLayout>
+
+
+    
+    
+
+</LinearLayout>

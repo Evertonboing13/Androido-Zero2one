@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="#abcdef" >
+	    
+	    	    <include
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                layout="@layout/instagram_control" />
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:background="#abcdaf" >
+	    
+	<include
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                layout="@layout/instagram_top" />
+
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginBottom="40dp"
+	    android:layout_marginTop="40dp" >
+	    
+	    <ListView
+	        android:id="@+id/lstcontatos"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+</ListView>
+
+	</RelativeLayout>
+</RelativeLayout>

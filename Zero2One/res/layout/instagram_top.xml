@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/asddd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_bottom_two" >
+
+     <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:alpha="0.9"
+         android:src="@drawable/top_left" />
+
+     <ImageView
+         android:id="@+id/buttonThreeStateOneImage"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:alpha="0.9"
+         android:layout_marginTop="10dp"
+         android:src="@drawable/top_main" />
+
+     <ImageView
+         android:id="@+id/ImageView02"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:alpha="0.9"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:src="@drawable/top_right" />
+     
+</RelativeLayout>
